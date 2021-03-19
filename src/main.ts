@@ -1,1 +1,3 @@
-console.log('hello world')
+import { simpleGenerator } from "./generators/simple";
+
+console.log(simpleGenerator(100, 50));
